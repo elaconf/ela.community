@@ -1,0 +1,51 @@
+title: Ela Community
+url: http://ela.community
+twitter: elaconf
+email: hello@elaconf.com
+slack: https://docs.google.com/forms/d/e/1FAIpQLSctRXPSgQaXHkawUB2gP8NR0w41KsAbZit8AZr4q19swxQ50A/viewform
+
+mission: "We are a not-for-profit community with a goal to create a safe, supportive, inspiring and comfortable <em>community</em> for women to gain the confidence needed to become leaders, open source contributors, speakers, and teachers in the world of tech."
+tagline: Empowering more women to be leaders in tech.
+image: "/logo.png"
+
+repository: elaconf/ela.community
+modernizr: 2.8.3
+jquery: 2.2.3
+
+sass:
+  style: :compressed
+
+markdown: kramdown
+
+future: true
+
+kramdown:
+  auto_ids:       false
+  footnote_nr:    1
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+
+permalink: /:categories/:title/
+
+gems:
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+
+author:
+  name: Ela Conf
+  email: hello@elaconf.com
+  uri: http://ela.community
+
+exclude:
+- Gemfile
+- README.md
+- package.json
+- CNAME
+- node_modules
+- bin
+- test
+
+collections:
+  sections:
+    output: false

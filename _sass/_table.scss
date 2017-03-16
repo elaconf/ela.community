@@ -1,0 +1,146 @@
+// Pure CSS https://github.com/yahoo/pure/blob/master/src/tables/css/tables.css
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  margin-bottom: 1.3em;
+  width: 100%;
+
+  @include breakpoint(medium) {
+    border: 1px solid $light;
+  }
+
+  .text-right {
+    @include breakpoint(medium) { min-width: 117px; }
+    @include breakpoint(small) { text-align: left; }
+  }
+
+  td,
+  th {
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+
+    @include breakpoint(medium) {
+      padding: .75em 1em;
+    }
+
+    @include breakpoint(small) {
+      display: block;
+      padding-bottom: 1em;
+      width: 100%;
+    }
+
+  }
+
+
+  td:first-child,
+  th:first-child {
+    border-left-width: 0;
+  }
+
+  thead {
+    vertical-align: bottom;
+
+    @include breakpoint(medium) {
+      background-color: $light;
+      color: $text-color;
+    }
+
+    @include breakpoint(small) {
+      display: none;
+    }
+  }
+
+}
+
+.by-the-nums {
+
+  @include breakpoint(small) {
+
+    thead,
+    thead tr {
+      display: block;
+    }
+
+    thead th:empty {
+      display: none;
+    }
+
+    thead th,
+    th ~ td,
+    th ~ th {
+      float: left;
+      width: 50%;
+    }
+
+    th,
+    td {
+      padding: .5em 0;
+    }
+  }
+
+  .row-header.row-header {
+    background: $accent-main;
+    color: $white;
+    font-weight: normal;
+
+    @include breakpoint(small) {
+      padding: .5em 0;
+
+      &:first-child {
+        margin-top: 2em;
+        text-align: center;
+      }
+    }
+
+    @include breakpoint(medium) {
+      &:first-child {
+        text-align: left;
+      }
+    }
+  }
+
+  td,
+  th {
+    border-bottom: 1px solid $white;
+    text-align: right;
+
+    @include breakpoint(small) {
+      text-align: center;
+    }
+  }
+
+  th {
+    font-weight: normal;
+  }
+
+  tr td:nth-child(even),
+  tr th:nth-child(even) {
+    background: rgba($accent-main, .05);
+  }
+
+  tr td:last-child:not(.row-header),
+  tr th:last-child:not(.row-header) {
+    background: rgba($accent-main, .1);
+  }
+
+  .minus {
+    color: $accent-secondary;
+
+    &::before {
+      content: '-';
+    }
+
+  }
+
+  .plus {
+    color: $accent-main;
+
+    &::before {
+      content: '+';
+    }
+
+  }
+}

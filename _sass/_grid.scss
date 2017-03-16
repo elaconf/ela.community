@@ -1,0 +1,86 @@
+@include breakpoint(small) {
+
+  .eight,
+  .seven,
+  .sixth {
+    width: 50%;
+  }
+
+  .third,
+  .five {
+    width: 100%;
+  }
+
+}
+
+@include breakpoint(medium) {
+
+  .eight,
+  .seven,
+  .sixth,
+  .third {
+    width: (100% / 3);
+  }
+
+  .half,
+  .fourth,
+  .five,
+  .two-thirds {
+    width: 50%;
+  }
+
+  // scss-lint:disable VendorPrefixes, PropertySortOrder
+  .grid,
+  .organizer,
+  .speakers:not(a),
+  .footer {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+}
+
+
+@include breakpoint(large) {
+
+  .eight {
+    width: (100% / 8);
+  }
+
+  .seven {
+    width: (100% / 7);
+  }
+
+  .sixth {
+    width: (100% / 6);
+  }
+
+  .five {
+    width: (100% / 5);
+  }
+
+  .fourth {
+    width: 25%;
+  }
+
+  .two-thirds {
+    width: 66.66%;
+  }
+
+}

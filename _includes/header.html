@@ -1,0 +1,8 @@
+<div class="header">
+  <div class="limiter">
+    <div class="logo-community">{% include svg/logo-community.svg %}</div>
+    <nav>
+      {% assign sections = site.sections | sort: 'order' %}{% for section in sections %}<a href="#{{section.title | slugify}}">{{section.title}}</a>{% endfor %}
+    </nav>
+  </div>
+</div>

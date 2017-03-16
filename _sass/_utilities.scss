@@ -1,0 +1,27 @@
+
+@include breakpoint(small) {
+  .hide-small {
+    display: none;
+  }
+}
+
+@include breakpoint(large) {
+  .hide-large {
+    display: none;
+  }
+}
+
+.show-large {
+  display: none;
+
+  @include breakpoint(large) {
+    display: block;
+  }
+
+}
+
+.columns {
+  -moz-columns: 2 300px;
+  -webkit-columns: 2 300px;
+  columns: 2 300px;
+}
