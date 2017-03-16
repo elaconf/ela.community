@@ -28,7 +28,3 @@ Hosts can choose to have ongoing availability with set times, more sporadic avai
   </div>
   {% endfor %}
 </div>
-
-### Hosting
-
-Interested in engaging with and enriching the Ela community through hosting your own office hours? Email us at [hello@elaconf.com](mailto:hello@elaconf.com) or reach out directly to Joni, LeeAnn, Katy, or Arti in Slack. We’ll chat about what specific scenario works best for you, if there are any topics you would like to focus on specifically, and get a short bio together to share with everyone via Slack and social media announcements.
