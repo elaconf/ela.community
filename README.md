@@ -1,4 +1,4 @@
-# Ela Community [![Build Status](https://travis-ci.org/elaconf/ela.community.svg)](https://travis-ci.org/elaconf/ela.community.io)
+# Ela Community [![Build Status](https://travis-ci.org/elaconf/ela.community.svg)](https://travis-ci.org/elaconf/ela.community)
 
 Ela Conference works to eliminate the existing diversity gap in tech by empowering more individuals identifying as a woman (18+) in a way that is significant to them to be leaders and take action through practical training and thoughtful mentorships.
 
