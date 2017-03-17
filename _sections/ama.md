@@ -27,9 +27,7 @@ Guests will receive an invite to the Slack channel prior to the start of the #am
 
 Each session will begin with an introduction and shared bio on behalf of the organizers, followed by the start of participant questions. Guests will choose and answer questions until the established end time, though it may not be possible to touch on every submitted question. Following a [threaded discussion format](https://slackhq.com/threaded-messaging-comes-to-slack-417ffba054bd#.t88f3budk), participants are free to ask any follow-up questions they may have as well.
 
-If as a participant you find yourself unable to attend a scheduled #ama and have questions for a specific guest, please feel free to post these in #ama-questions and we will submit them during the event for you.
-
-*Please note that #ama questions and responses may be published after the event but the identity of those asking questions will always be withheld.*
+If as a participant you find yourself unable to attend a scheduled #ama please feel free to pass along your questions to an organizer before the event. 
 
 ### Upcoming and Past AMAs
 
