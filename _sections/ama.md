@@ -37,6 +37,8 @@ If as a participant you find yourself unable to attend a scheduled #ama please f
 
 ### Upcoming and Past AMAs
 
+Do you know someone who would be great as an AMA guest? Or would you like to recommend yourself? Fill out our [AMA Suggestion Box form](https://goo.gl/forms/i0QOjNupmO9e9hWA3).
+
 <div class="events">
   {% assign ama = page.events | sort: 'date' %}
   {% for event in ama reversed %}
