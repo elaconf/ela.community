@@ -28,6 +28,7 @@ Notes:
 ```yaml
 - name: # Name of the host or speaker
   date: # Date of the event in YYYY-MM-DD format
+  time: # Time of the event in HH:MM format
   title: # (For Lunch & Learn only) title of the talk
   description: # One sentence bio of the host
   twitter: # Twitter handle of the host

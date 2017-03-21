@@ -5,6 +5,7 @@ image: lunch-learn.png
 events:
 - name: Joni Trythall
   date: 2017-03-30
+  time: "12:00 pm ET"
   title: SVGs from Illustrator to inline HTML
   description: This presentation will cover how to grab an SVG’s (Scalable Vector Graphics) code from Illustrator and add it to an HTML document, touch on the benefits of using it this way, and make note of how to prep these graphics for animation with CSS from the start.
   twitter: JoniTrythall
@@ -24,7 +25,7 @@ These may also be recorded in the future if the host is comfortable with that as
     <div style="background-image: url(/img/lunch-and-learn/{{event.name | slugify}}.jpg)" class="speaker-img-small event-img hide-small"></div>
     <div class="event-details">
       <div class="speaker-name"><strong>{{event.title}}</strong> by <a href="https://twitter.com/{{event.twitter}}">{{event.name}}</a></div>
-      <div class="speaker-date small">{{event.date | date: "%B %d, %Y"}}</div>
+      <div class="speaker-date small">{{event.date | date: "%B %d, %Y"}}{% if event.time %} {{event.time}}{% endif %}</div>
       <div class="speaker-description">{{event.description | markdownify}}</div>
     </div>
   </div>

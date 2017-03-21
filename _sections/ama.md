@@ -2,13 +2,19 @@
 title: AMA
 order: 3
 events:
+- name: Jill Jubinski
+  date: 2017-04-11
+  time: '12:00 pm ET'
+  description: Recruiting veteran and community manager. Chat about career growth and direction, salary negotiations, mentorships, and more.
+  twitter: jilljubs
 - name: Lara Hogan
   date: 2017-03-15
-  description: Engineering Director at Etsy, author of *Demystifying Public Speaking* and *Designing for Performance*
+  time: '12:00 pm ET'
+  description: Engineering Director at Etsy, author of *Demystifying Public Speaking* and *Designing for Performance*.
   twitter: lara_hogan
 - name: Una Kravets
   date: 2017-01-31
-  description: UI engineer at DigitalOcean and co-host of Toolsday
+  description: UI engineer at DigitalOcean and co-host of Toolsday.
   twitter: Una
 ad: Reach out to us at [hello@elaconf.com](mailto:hello@elaconf.com) to secure an AMA sponsorship.
 ---
@@ -27,7 +33,7 @@ Guests will receive an invite to the Slack channel prior to the start of the #am
 
 Each session will begin with an introduction and shared bio on behalf of the organizers, followed by the start of participant questions. Guests will choose and answer questions until the established end time, though it may not be possible to touch on every submitted question. Following a [threaded discussion format](https://slackhq.com/threaded-messaging-comes-to-slack-417ffba054bd#.t88f3budk), participants are free to ask any follow-up questions they may have as well.
 
-If as a participant you find yourself unable to attend a scheduled #ama please feel free to pass along your questions to an organizer before the event. 
+If as a participant you find yourself unable to attend a scheduled #ama please feel free to pass along your questions to an organizer before the event.
 
 ### Upcoming and Past AMAs
 
@@ -38,7 +44,7 @@ If as a participant you find yourself unable to attend a scheduled #ama please f
     <div style="background-image: url(/img/ama/{{event.name | slugify}}.jpg)" class="speaker-img-small event-img  hide-small"></div>
     <div class="event-details">
       <a href="https://twitter.com/{{event.twitter}}" class="speaker-name">{{event.name}}</a>
-      <div class="speaker-date small">{{event.date | date: "%B %d, %Y"}}</div>
+      <div class="speaker-date small">{{event.date | date: "%B %d, %Y"}}{% if event.time %} {{event.time}}{% endif %}</div>
       <div class="speaker-description">{{event.description | markdownify}}</div>
     </div>
   </div>
