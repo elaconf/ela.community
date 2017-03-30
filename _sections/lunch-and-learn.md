@@ -12,7 +12,7 @@ events:
 ad: Reach out to us at [hello@elaconf.com](mailto:hello@elaconf.com) to secure a Lunch & Learn sponsorship.
 ---
 
-Each month the community will have the opportunity to sign up to attend a Google Hangouts presentation over lunch (12:00PM east coast time). The tone for these is casual, welcoming, and encouraging. The host is permitted to determine if 30 or 45 minutes is more appropriate for them and whether they would like to take questions and where (live versus in the #lunchlearn channel as a follow-up).
+Each month the community will have the opportunity to sign up to attend a Google Hangouts presentation over lunch (12:00PM east coast time). The tone for these is casual, welcoming, and encouraging. The host is able to present for up to 30 minutes and determine whether they would like to take questions and where (live versus in the #lunchlearn channel as a follow-up).
 
 These may also be recorded in the future if the host is comfortable with that as we understand not everyone has consistent or flexible lunch time each day.
 
