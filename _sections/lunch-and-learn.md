@@ -7,7 +7,7 @@ events:
   date: 2017-03-30
   time: "12:00 pm ET"
   title: SVGs from Illustrator to inline HTML
-  description: This presentation will cover how to grab an SVG’s (Scalable Vector Graphics) code from Illustrator and add it to an HTML document, touch on the benefits of using it this way, and make note of how to prep these graphics for animation with CSS from the start.
+  description: This presentation will cover how to grab an SVG’s (Scalable Vector Graphics) code from Illustrator and add it to an HTML document, touch on the benefits of using it this way, and make note of how to prep these graphics for animation with CSS from the start. [Sign up!](https://goo.gl/forms/Nns1TZUrMPAJAoL53)
   twitter: JoniTrythall
 ad: Reach out to us at [hello@elaconf.com](mailto:hello@elaconf.com) to secure a Lunch & Learn sponsorship.
 ---
