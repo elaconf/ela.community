@@ -3,11 +3,18 @@ title: Lunch & Learn
 order: 4
 image: lunch-learn.png
 events:
+- name: Stephanie Liu
+  date: 2017-04-27
+  time: "12:00 pm ET"
+  title: Draggable Elements with Vanilla JS
+  description: We'll be reviewing how to use vanilla JavaScript to create elements a user can drag with their mouse, [as seen in this demo](http://codepen.io/ramenhog/pen/gmGzRQ). After briefly touching on some significant user benefits of such UI, we will dive into understanding how to determine the position of a mouse click with mouse events and how to use that information to reposition the draggable element. *Some basic JavaScript knowledge will be required*.
+  form: https://goo.gl/forms/0M1oBRDfsSPrVPH62
+  twitter: ramenhog
 - name: Joni Trythall
   date: 2017-03-30
   time: "12:00 pm ET"
   title: SVGs from Illustrator to inline HTML
-  description: This presentation will cover how to grab an SVG’s (Scalable Vector Graphics) code from Illustrator and add it to an HTML document, touch on the benefits of using it this way, and make note of how to prep these graphics for animation with CSS from the start. [Sign up!](https://goo.gl/forms/Nns1TZUrMPAJAoL53)
+  description: This presentation will cover how to grab an SVG’s (Scalable Vector Graphics) code from Illustrator and add it to an HTML document, touch on the benefits of using it this way, and make note of how to prep these graphics for animation with CSS from the start.
   twitter: JoniTrythall
 ad: Reach out to us at [hello@elaconf.com](mailto:hello@elaconf.com) to secure a Lunch & Learn sponsorship.
 ---
@@ -26,7 +33,10 @@ These may also be recorded in the future if the host is comfortable with that as
     <div class="event-details">
       <div class="speaker-name"><strong>{{event.title}}</strong> by <a href="https://twitter.com/{{event.twitter}}">{{event.name}}</a></div>
       <div class="speaker-date small">{{event.date | date: "%B %d, %Y"}}{% if event.time %} {{event.time}}{% endif %}</div>
-      <div class="speaker-description">{{event.description | markdownify}}</div>
+      <div class="speaker-description">
+        {{event.description | markdownify}}
+        {% if event.form %}<a href="{{event.form}}" class="button">Sign up</a>{% endif %}
+      </div>
     </div>
   </div>
   {% endfor %}
