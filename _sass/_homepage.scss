@@ -90,7 +90,7 @@ section {
   background-color: $accent-main;
   border-radius: .25em;
   color: $white;
-  padding: 1em;
+  padding: 1em 1.5em;
 
   @include breakpoint(medium) {
     // scss-lint:disable PropertySortOrder
@@ -118,13 +118,17 @@ section {
   a {
     color: $white;
     text-decoration: underline;
+
+    &:hover {
+      color: darken($white, 15%);
+    }
   }
 
   svg {
     display: block;
     flex-shrink: 0;
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
   }
 }
 
