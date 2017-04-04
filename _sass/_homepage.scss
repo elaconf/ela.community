@@ -169,3 +169,28 @@ section {
   @include breakpoint(large) { width: 35.25%; }
 
 }
+
+.spotlight {
+  margin-bottom: 1em;
+
+  @include breakpoint(medium) {
+    background: lighten($accent-main, 70%);
+    border-radius: .25em;
+    padding: 1em 1em 1em .25em;
+  }
+}
+
+.spotlight-img {
+  display: block;
+  margin-bottom: .5em;
+  text-align: center;
+}
+
+@include breakpoint(medium) {
+
+  .spotlight-details {
+    padding: .5em;
+  }
+
+}
+
