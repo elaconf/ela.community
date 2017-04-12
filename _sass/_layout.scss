@@ -19,7 +19,7 @@ body {
   @include breakpoint(medium) {
     background-attachment: fixed;
     background-image: url('/img/tall-fill.gif');
-    background-repeat-x: no-repeat;
+    background-repeat: repeat-y;
   }
 
   @include breakpoint(small) {
