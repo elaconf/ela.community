@@ -2,6 +2,11 @@
 title: AMA
 order: 3
 events:
+- name: Molly Sheehan
+  date: 2017-05-09
+  time: '12:00 pm ET'
+  description: Molly Sheehan is a bioengineering postdoctoral fellow running for US Congress.
+  twitter: pennsymolly
 - name: Jill Jubinski
   date: 2017-04-11
   time: '12:00 pm ET'
