@@ -8,7 +8,7 @@ events:
   time: "12:00 pm ET"
   title: Draggable Elements with Vanilla JS
   description: We'll be reviewing how to use vanilla JavaScript to create elements a user can drag with their mouse, [as seen in this demo](http://codepen.io/ramenhog/pen/gmGzRQ). After briefly touching on some significant user benefits of such UI, we will dive into understanding how to determine the position of a mouse click with mouse events and how to use that information to reposition the draggable element. *Some basic JavaScript knowledge will be required*.
-  form: https://goo.gl/forms/0M1oBRDfsSPrVPH62
+  #form: https://goo.gl/forms/0M1oBRDfsSPrVPH62
   twitter: ramenhog
 - name: Joni Trythall
   date: 2017-03-30
