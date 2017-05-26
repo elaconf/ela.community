@@ -3,6 +3,13 @@ title: Lunch & Learn
 order: 4
 image: lunch-learn.png
 events:
+- name: Vaidehi Joshi
+  date: 2017-06-16
+  time: "12:00 pm ET"
+  title: Crafting Better Code Reviews
+  description: We've probably all heard that peer code reviews can do wonders to a codebase. Many of us probably work on teams that (hopefully) have some kind of formal code review process. But is that enough? Motivated by own code review experiences, I've done some research on the different types of code review processes, and which ones are the most effective. Let's explore the history behind code reviews, and try and figure out what makes a strong code review, and what makes a painful one. By the end of this lunch and learn, you'll know not just the theory behind code reviews, but also how to put a good one into practice on your own team!
+  twitter: vaidehijoshi
+  form: https://goo.gl/forms/wQFm1jbxhoPOUar02
 - name: Stephanie Liu
   date: 2017-04-27
   time: "12:00 pm ET"
