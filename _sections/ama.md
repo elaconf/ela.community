@@ -2,6 +2,11 @@
 title: AMA
 order: 3
 events:
+- name: Jess Lee
+  date: 2017-07-11
+  time: '12:00 pm ET'
+  description: Jess is a Taiwanese American entrepreneur focusing on the operational aspects of running The Practical Dev, in addition to writing code for dev.to.
+  twitter: jessleenyc
 - name: Molly Sheehan
   date: 2017-05-09
   time: '12:00 pm ET'
