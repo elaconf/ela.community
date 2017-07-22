@@ -2,6 +2,11 @@
 title: AMA
 order: 3
 events:
+- name: Corinne Warnshuis
+  date: 2017-08-02
+  time: '12:00 pm ET'
+  description: 'Corinne is the Executive Director of Girl Develop It. Ask Corinne about negotiating, fundraising, building community, finding your mission, and anything GDI-related!'
+  twitter: corinnepw
 - name: Jess Lee
   date: 2017-07-11
   time: '12:00 pm ET'
