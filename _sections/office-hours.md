@@ -7,6 +7,10 @@ hosts:
   topics: Being a manager, public speaking fears and tips, and navigating being part of an underrepresented group in tech
   description: Engineering Director at Etsy, author of *Demystifying Public Speaking* and *Designing for Performance*
   twitter: lara_hogan
+- name: Julia Elman
+  topics: Tech for good, being a working mom in tech, people management, building design systems
+  description: Design manager at Zapier, co-author of Lightweight Django, WERK MAMA.
+  twitter: juliaelman
 ---
 
 The Ela #office-hours channel serves as a designated space for community members to connect directly with scheduled hosts to ask career related questions, get advice, and seek general support during publicized times.
