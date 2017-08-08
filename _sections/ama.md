@@ -2,6 +2,11 @@
 title: AMA
 order: 3
 events:
+- name: Allison Esposito
+  date: 2017-09-19
+  time: '12:00 pm ET'
+  description: 'Allison is the Founder of Tech Ladies. Ask Allison about anything from how to turn your side hustle into a full-time business, bootstrapping a company, running an active community, diversity and inclusion and more!'
+  twitter: allisonveronica
 - name: Corinne Warnshuis
   date: 2017-08-02
   time: '12:00 pm ET'
