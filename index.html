@@ -1,39 +1,7 @@
----
-layout: home
----
-
-<section>
-  <h2>Ela Community</h2>
-  <p>Ela Community is an extension of <a href="http://elaconf.com">Ela Conf</a> and brings year-round personal and professional development to our attendees and members in <a href="{{site.slack}}">our Slack channel</a>.</p>
-  <p>Our goal is to create a safe, supportive, inspiring and comfortable <em>community</em> for adult women (cis and trans), trans men, and genderqueer people (18+) to gain the confidence needed to become leaders, speakers, and teachers in the world of tech.</p>
-  <p>Leadership skills are crucial to making an impact in the field and creating diversity in the workplace. Companies with greater top-level gender diversity perform better financially, are more empathetic, and more innovative. When marginalized individuals become leaders, the entire tech community benefits.</p>
-  <div class="photos">
-    <img src="http://elaconf.com/2016/images/highlights/34A9316.jpg" alt="Ela Conf" class="img-half">
-    <img src="http://elaconf.com/2016/images/highlights/34A9175.jpg" alt="Ela Conf" class="img-half">
-    <img src="http://elaconf.com/2016/images/highlights/34A9240.jpg" alt="Attendees at Ela Conf">
-    <a href="http://elaconf.com/2016" class="xsmall">Photos from Ela Conf 2016</a>
-  </div>
-  <p>All Ela events and presentations are for adult women (cis and trans), trans men, and genderqueer people (18+) and participants are expected to follow our <a href="http://elaconf.com/code-of-conduct">code of conduct</a>.</p>
-
-  <div class="ad">
-    <div class="hide-small">{% include svg/email.svg %}</div>
-    <p><a href="http://eepurl.com/cI9K1r">Subscribe to Ela Letters</a>, our monthly newsletter, to learn about upcoming events and Ela Conf announcements.</p>
-  </div>
-
-</section>
-
-<div class="break">{% include svg/line.svg %}</div>
-
-{% assign sections = site.sections | sort: 'order' | offset: 1 %}
-  {% for section in sections %}
-  <section id="{{section.title | slugify}}">
-    <h2>{{section.title}}</h2>
-    {% if section.image %}<img src="/img/headers/{{section.image}}" class="section-header" alt="{{section.title}}">{% endif %}
-    {{section.content | markdownify}}
-    {% if section.ad %}<div class="ad">
-      <div class="hide-small">{% include svg/heart.svg %}</div>
-      {{section.ad | markdownify}}
-    </div>{% endif %}
-  </section>
-  <div class="break">{% include svg/line.svg %}</div>
-{% endfor %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="refresh" content="0;url=http://elaconf.github.io" />
+</head>
+</html>
